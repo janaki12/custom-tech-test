@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5632309746,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Submit answers for Arrays Challenge",
+        "description": "",
+        "id": "custom-tech-feature;submit-answers-for-arrays-challenge",
+        "after": [
+          {
+            "result": {
+              "duration": 577363478,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1057319879,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open automationpractice website",
+            "match": {
+              "location": "ArraysChallenge.i_open_automationpractice_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 510977439,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click Render Challenge",
+            "match": {
+              "location": "ArraysChallenge.i_click_render_challenge()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2191472394,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill the answers",
+            "match": {
+              "location": "ArraysChallenge.i_provide_answers_challenge()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329887645,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click Submit answers",
+            "match": {
+              "location": "ArraysChallenge.click_Submit_answers()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Custom Tech feature",
+    "description": "",
+    "id": "custom-tech-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Janaki.Kamat/Automation_testing/CucumberProjects/selenium-samples-java/custom-tech-test/src/test/resources/features/TestTech.feature"
+  }
+]
